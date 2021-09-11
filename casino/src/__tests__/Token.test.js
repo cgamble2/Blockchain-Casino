@@ -1,8 +1,6 @@
 import BigNumber from 'bignumber.js';
 import { withContracts } from '../neo-one/test';
 
-//jest.setTimeout(60000);
-
 describe('Token', () => {
   test('can pre-approve and revoke transfers', async () => {
     await withContracts(async ({ token, masterAccountID, accountIDs }) => {
