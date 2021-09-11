@@ -1,4 +1,4 @@
-/* @hash bd2c299a23669051434398730a734e84 */
+/* @hash 4cd33890ac583ba2adf387fb28772ee3 */
 // tslint:disable
 /* eslint-disable */
 import { createWithContracts, TestOptions, WithContractsOptions } from '@neo-one/smart-contract-test';
@@ -10,4 +10,5 @@ export const withContracts: (
   options?: WithContractsOptions,
 ) => Promise<void> = createWithContracts([
   { name: 'HelloWorld', filePath: path.resolve(__dirname, '../../neo-one/contracts/HelloWorld.ts') },
+  { name: 'Token', filePath: path.resolve(__dirname, '../../neo-one/contracts/Token.ts') },
 ]);
