@@ -1,4 +1,4 @@
-/* @hash 483a009c3bec9f46b8cbdf9be796fd09 */
+/* @hash b4c90907dffb47575df2a9447281d6b5 */
 // tslint:disable
 /* eslint-disable */
 export * from './contracts';
@@ -10,3 +10,5 @@ export * from './HelloWorld/abi';
 export * from './Token/contract';
 export * from './Token/types';
 export * from './Token/abi';
+
+

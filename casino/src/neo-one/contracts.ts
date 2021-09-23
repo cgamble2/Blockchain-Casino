@@ -1,4 +1,4 @@
-/* @hash d5851410119f7faf6ce30d09863e90e7 */
+/* @hash 386d6513191e9599144295da9edf2c9b */
 // tslint:disable
 /* eslint-disable */
 import { Client } from '@neo-one/client';
